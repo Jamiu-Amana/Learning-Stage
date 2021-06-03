@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css">
+</head>
+<body>
+  <br>
+    <div class="alert alert-primary" role="alert">
+     <h1> Betting Site</h1> 
+     Select a number from one to ten 
+    </div>
+    
+    <div id= "reward"></div>
+  </br>  
+    <form role="form">
+        <div class="form-group m-5">
+          <label for="input feild">Enter a number</label>
+          <input type="number" class="form-control" id="selectedNumber">
+        </div>
+        <div class="form-group m-5">
+          <label for="input feild">Enter an amount to bet</label>
+          <input type="number" class="form-control" id="money">
+        </div>
+        <button onclick="play()" 
+        type="button" class=" ml-5 btn btn-primary">Play</button>
+        <script src="./index.js"></script>
+        <script src="assest/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
